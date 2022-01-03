@@ -4,3 +4,44 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+section.one{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.halfbox{
+    width: 42%;
+    text-align: justify;
+    margin-left: 5%;
+    padding-left: 2%;
+   
+}
+.halfbox img{
+    width: 100%;
+    padding-left: 30px;
+}
+.halfbox h1{
+    font-size: 50px;
+    padding-top: 40px;
+}
+.halfbox h1 .yeallo_header{
+    color:orange;
+}
+.halfbox h3{
+    padding-top: 35px;
+}
+.halfbox p{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.719);
+    padding-bottom: 10px;
+}
+.hireme{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
